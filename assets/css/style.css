@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+:root{
+    --main-orange: #ff6900FF;
+    --price-orange: #ff0000FF;
+    --promotion: #008000FF;
+    --lighter: #ffffffFF;
+    --dark: #1a1a1aFF;
+}
+
+nav{
+    background-color: var(--main-orange);
+}
