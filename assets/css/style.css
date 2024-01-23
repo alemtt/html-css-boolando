@@ -11,6 +11,10 @@ ul{
     display: flex;
 }
 
+.left{
+    justify-content: end;
+}
+
 :root{
     --main-orange: #ff6900FF;
     --price-orange: #ff0000FF;
@@ -19,6 +23,53 @@ ul{
     --dark: #1a1a1aFF;
 }
 
+.container-items{
+position: relative;
+max-width: 220px;
+}
+
+.promo{
+    position: absolute;
+    bottom:20%;
+    background-color: var(--price-orange);
+    font-size: 0.75rem;
+    padding: 1px;
+}
+
+.sustain{
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    font-size: 0.75rem;
+    padding: 1px;
+    background-color: var(--promotion);
+}
+
+.heart{
+    position:absolute;
+    top: 9%;
+    right: 0;
+    background-color: var(--lighter);
+    padding: 0.25rem;
+}
+
+
+.item{
+    width: 220px;
+}
+
+
+
 nav{
     background-color: var(--main-orange);
+}
+
+.logo{
+    
+    width: 17%;
+
+}
+
+.grow{
+    flex-grow: 1;
 }
